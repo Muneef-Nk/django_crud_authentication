@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Security
 # ------------------------------
 SECRET_KEY = 'your-secret-key-here'  # CHANGE in production!
-DEBUG = True  # False in production
+DEBUG = False  # False in production
 ALLOWED_HOSTS = ['*']  # Replace with your domain in production
 
 # ------------------------------
